@@ -26,6 +26,18 @@ class Books{
             return $this->sqlData["title"];
         }
 
+         function getAuthor() {
+            return $this->sqlData["Author"];
+        }
+    
+         function getRating() {
+            return $this->sqlData["Rating"];
+        }
+         function getComments() {
+            return $this->sqlData["Comments"];
+        }
+        //need to come back and set how strict each of these will be. 
+
 
 
     }
